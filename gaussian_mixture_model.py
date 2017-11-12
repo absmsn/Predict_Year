@@ -1,10 +1,12 @@
 """
 the procedure of em algorithm 
-given the Q function: Q(theta|theta i)=SUM(logP(Y,Z|theta)P(Z|theta i,Y))
+given the Q function: Q(θ|θi)=Σ(Z)(logP(Y,Z|θ)P(Z|Θi,Y))
 Y represents the observation data, theta i represents the theta value in the 
-last recursion step, Z represents the latent variable.
+last recursion step and Z represents the latent variable.
 The aim is to maximum the value of Q and deem it as the theta(i+1) and proceed 
 the process until theta(i+1)-theta(i) << some little value(convenge to a specific value)
+
+so the main idea is to maximum the 
 
 GMM(guassian mixture model):
 the structure of parameter theta: 
