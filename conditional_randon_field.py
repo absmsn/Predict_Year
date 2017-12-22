@@ -1,4 +1,0 @@
-"""
-conditional random field:
-
-"""
